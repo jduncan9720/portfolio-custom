@@ -1,0 +1,45 @@
+body {
+    margin: auto 0;
+    background-color: black;
+    color: white
+}
+
+.nav1 {
+    
+}
+
+.topNav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+
+.nav2 {
+    background-color: grey;
+    color: black;
+}
+
+.about {
+
+}
+
+.resume {
+    
+}
+
+.portfolio {
+
+}
+
+.contact {
+
+}
+
+li {
+    padding: 10px 30px;
+}
+
+ul {
+    margin: 0;
+}
