@@ -65,6 +65,11 @@ body {
     
 }
 
+#mainJob {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
 .mainAbout {
     margin-left: auto; 
 }
@@ -83,9 +88,17 @@ nav h2 {
     font-family: 'Lato', sans-serif;
 }
 .about {
+    background-color: slategray;
+    height: 400px;
     
 }
 
+.aboutMe {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 3px 3px 7px black;
+    
+}
 .resume {
     
 }
@@ -102,5 +115,19 @@ nav h2 {
     .topNav {
         display: block;
         padding: 0px;
+    }
+
+    .mainAbout {
+        margin: 0;
+    }
+        
+    .linkSpace {
+        padding-left: 5px;
+    
+    }
+    .mainNav {
+        margin: 0px;
+        padding-left: 20px;
+        padding-top: 10px;
     }
   }
