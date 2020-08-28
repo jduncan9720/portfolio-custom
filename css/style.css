@@ -88,15 +88,22 @@ nav h2 {
     font-family: 'Lato', sans-serif;
 }
 .about {
-    background-color: slategray;
-    height: 400px;
+    
     
 }
-
-.aboutMe {
+.subHeader {
     font-size: 50px;
     font-family: 'Lato', sans-serif;
     text-shadow: 3px 3px 7px black;
+    text-align: center;
+}
+.profileImage {
+    width: 150px;
+    height: auto;
+}
+
+.aboutMe {
+    
     
 }
 .resume {
