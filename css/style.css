@@ -1,7 +1,8 @@
 body {
     margin: auto 0;
     background-color: black;
-    color: white
+    color: white;
+    
 }
 
 .nav1 {
@@ -17,7 +18,7 @@ body {
 }
 
 .topNav li {
-    padding: 10px 30px;
+    padding: 10px 100px;
 }
 
 .nav2 {
@@ -26,8 +27,7 @@ body {
 }
 
 .mainNav {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    display: flex;
     align-items: center;
     list-style: none;
     margin: 0px;
@@ -35,24 +35,22 @@ body {
 }
 
 .mainName {
-    grid-column: span 3;
+    float: left;
     font-size: 40px;
     padding: 0;
 }
 
 .mainAbout {
-    grid-column-start: 12;
+    margin-left: auto; 
 }
 .mainNav a {
     color: white
 }
-.mainNav li {
-    margin: 20px;
+
+.linkSpace {
+    padding-left: 50px;
 }
 
-.mainName{
-    margin-left: auto;
-}
 .about {
 
 }
