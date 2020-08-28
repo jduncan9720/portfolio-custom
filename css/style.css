@@ -2,7 +2,6 @@ body {
     margin: auto 0;
     background-color: black;
     color: white;
-    
 }
 
 .nav1 {
@@ -15,6 +14,7 @@ body {
     justify-content: center;
     margin: 15px;
     font-size: larger;
+    font-family: 'Lato', sans-serif;
 }
 
 .topNav li {
@@ -22,8 +22,22 @@ body {
 }
 
 .nav2 {
-    background-color: grey;
-    color: black;
+    background-image: url("../images/bgimage3.jpg");
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+  
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    
+    /* This is what makes the background image rescale based
+        on the container's size */
+    background-size: cover;
+    
+    /* Set a background color that will be displayed
+        while the background image is loading */
+    background-color: #464646;
+    height: 850px;
+
 }
 
 .mainNav {
@@ -32,12 +46,15 @@ body {
     list-style: none;
     margin: 0px;
     padding-right: 40px;
+    padding-top: 30px;
 }
 
 .mainName {
-    float: left;
-    font-size: 40px;
-    padding: 0;
+    margin-top: 20%;
+    font-size: 100px;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 10px 10px 8px black;
+    
 }
 
 .mainAbout {
@@ -49,10 +66,16 @@ body {
 
 .linkSpace {
     padding-left: 50px;
+    font-size: larger;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
 }
 
+nav h2 {
+    font-family: 'Lato', sans-serif;
+}
 .about {
-
+    
 }
 
 .resume {
