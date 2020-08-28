@@ -13,8 +13,8 @@ body {
     display: flex;
     list-style: none;
     justify-content: center;
-    margin: 0;
-    
+    margin: 15px;
+    font-size: larger;
 }
 
 .topNav li {
@@ -67,4 +67,9 @@ body {
 
 }
 
-
+@media screen and (max-width: 960px) {
+    .topNav {
+        display: block;
+        padding: 0px;
+    }
+  }
