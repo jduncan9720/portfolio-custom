@@ -12,7 +12,12 @@ body {
     display: flex;
     list-style: none;
     justify-content: center;
+    margin: 0;
     
+}
+
+.topNav li {
+    padding: 10px 30px;
 }
 
 .nav2 {
@@ -20,6 +25,34 @@ body {
     color: black;
 }
 
+.mainNav {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+    padding-right: 40px;
+}
+
+.mainName {
+    grid-column: span 3;
+    font-size: 40px;
+    padding: 0;
+}
+
+.mainAbout {
+    grid-column-start: 12;
+}
+.mainNav a {
+    color: white
+}
+.mainNav li {
+    margin: 20px;
+}
+
+.mainName{
+    margin-left: auto;
+}
 .about {
 
 }
@@ -36,10 +69,4 @@ body {
 
 }
 
-li {
-    padding: 10px 30px;
-}
 
-ul {
-    margin: 0;
-}
