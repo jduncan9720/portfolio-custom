@@ -13,7 +13,9 @@ body {
 }
 
 .nav1 {
-    
+    background-color: black;
+    position: fixed;
+    width: 100%;
 }
 
 .topNav {
@@ -26,10 +28,10 @@ body {
 }
 
 .topNav li {
-    padding: 10px 100px;
+    padding: 10px;
 }
 
-.nav2 {
+.landing {
     background-image: url("../images/bgimage3.jpg");
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
@@ -45,7 +47,13 @@ body {
         while the background image is loading */
     background-color: #464646;
     height: 850px;
+    margin-top: 83px;
 
+
+}
+
+.landingHeads {
+    padding-top: 100px;
 }
 
 .mainNav {
@@ -58,7 +66,6 @@ body {
 }
 
 .mainName {
-    margin-top: 13%;
     font-size: 100px;
     font-family: 'Lato', sans-serif;
     text-shadow: 10px 10px 8px black;
@@ -78,10 +85,11 @@ body {
 }
 
 .linkSpace {
-    padding-left: 50px;
+    padding-left: 10px;
     font-size: larger;
     font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
+    color: white;
 }
 
 nav h2 {
@@ -105,18 +113,18 @@ nav h2 {
     text-align: center;
 }
 
-.aboutMe {
-    
-}
 .aboutRow {
     margin-top: 40px;
 }
+
 .aboutCols p {
     font-size: larger;
 }
+
 .resumeDown {
     margin-top: 50px;
 }
+
 .projects {
     background-color: #1f2122;
     height: 920px;
