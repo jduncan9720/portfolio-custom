@@ -16,6 +16,7 @@ body {
     background-color: black;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .topNav {
@@ -96,6 +97,7 @@ nav h2 {
     font-family: 'Lato', sans-serif;
 }
 .about {
+    background-color: black;
     height: 920px; 
 }
 .subHeader {
@@ -113,11 +115,14 @@ nav h2 {
     text-align: center;
 }
 
+.aboutCols ul {
+    list-style: none;
+}
 .aboutRow {
     margin-top: 40px;
 }
 
-.aboutCols p {
+.aboutCols p, li {
     font-size: larger;
 }
 
