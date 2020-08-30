@@ -27,9 +27,9 @@
     <nav class="nav2">
         <ul class="mainNav">
             <li class="mainAbout"><a class="linkSpace" href="#aboutLink">About</a></li>
-            <li><a class="linkSpace" href="">Projects</a></li>
-            <li><a class="linkSpace" href="">Portfolio</a></li>
-            <li><a class="linkSpace" href="">Contact</a></li>
+            <li><a class="linkSpace" href="#projectsLink">Projects</a></li>
+            <li><a class="linkSpace" href="#portfolioLink">Portfolio</a></li>
+            <li><a class="linkSpace" href="#contactLink">Contact</a></li>
         </ul>
         <div class="container text-center">
             <h1 class="mainName">Joshua Duncan</h1>
@@ -37,9 +37,11 @@
         </div>
     </nav>
     <div class="about" id="aboutLink">
-        <div class="container aboutMe pt-4 pb-4">
+        <div class="container-fluid aboutMe pt-4 pb-4">
             <p class="subHeader">About Me</p>
-            <div class="container">
+            <div class="row aboutRow">
+            <div class="aboutCols col-lg-6">
+                <h1>Bio</h1>
                 <img class="profileImage float-left pr-3" src="images/2020Profilesm.jpg" alt="Profile">
                 <p> Hi, I'm Joshua Duncan! <br><br>
                     I'm currently working my way through a full stack development bootcamp through the University of
@@ -70,12 +72,23 @@
                     I'm an avid gamer and enjoy movies and entertainment media in general.
                 </p>
             </div>
+            <div class=" aboutCols col-lg-6 border-left border-white">
+                <h1>Skills</h1>
+                
+            </div>
+            
+        </div>
+        <div class="resumeDown">
+            <button type="button" class="btn btn-outline-light btn-lg btn-block">
+                <a href="downloads/joshduncanresume.pdf" download="joshduncanresume.pdf">Download My Resume</a>
+            </button>
+        </div>
         </div>
 
     </div>
-    <div class="projects">Projects</div>
-    <div class="portfolio">Portfolio</div>
-    <div class="contact">Contact</div>
+    <div class="projects" id="projectsLink">Projects</div>
+    <div class="portfolio" id="portfolioLink">Portfolio</div>
+    <div class="contact" id="contactLink">Contact</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

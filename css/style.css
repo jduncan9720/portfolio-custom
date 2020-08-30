@@ -58,7 +58,7 @@ body {
 }
 
 .mainName {
-    margin-top: 20%;
+    margin-top: 13%;
     font-size: 100px;
     font-family: 'Lato', sans-serif;
     text-shadow: 10px 10px 8px black;
@@ -88,13 +88,12 @@ nav h2 {
     font-family: 'Lato', sans-serif;
 }
 .about {
-    
-    
+    height: 920px; 
 }
 .subHeader {
     font-size: 50px;
     font-family: 'Lato', sans-serif;
-    text-shadow: 3px 3px 7px black;
+    text-shadow: 3px 3px 7px white;
     text-align: center;
 }
 .profileImage {
@@ -102,20 +101,35 @@ nav h2 {
     height: auto;
 }
 
+.aboutCols h1 {
+    text-align: center;
+}
+
 .aboutMe {
     
-    
+}
+.aboutRow {
+    margin-top: 40px;
+}
+.aboutCols p {
+    font-size: larger;
+}
+.resumeDown {
+    margin-top: 50px;
 }
 .projects {
     background-color: #1f2122;
-    height: 800px;
+    height: 920px;
 }
 
 .portfolio {
+    height: 920px;
 
 }
 
 .contact {
+    background-color: slategray;
+    height: 920px;
 
 }
 
