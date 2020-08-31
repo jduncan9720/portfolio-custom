@@ -16,7 +16,7 @@ body {
     background-color: black;
     position: fixed;
     width: 100%;
-    font-size: 20px;
+    font-size: 25px;
     z-index: 1;
 }
 
@@ -30,7 +30,7 @@ body {
 
 .topNav li {
     padding: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .landing {
@@ -146,13 +146,21 @@ nav h2 {
     height: 920px;
 }
 
-.portfolio {
-    height: 920px;
+#cardRows{
+    margin-bottom: 20px;
+}
+#cardMain {
+    height: 260px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.portRow {
+    margin: 0px 150px 0px;
 }
 
 .contact {
-    background-color: slategray;
+    background-color:#343a40;
     height: 920px;
 
 }
