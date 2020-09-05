@@ -14,6 +14,7 @@ body {
 
 ul {
     list-style: none;
+    padding-inline-start: 10px;
 }
 .nav1 {
     background-color: black;
@@ -148,6 +149,9 @@ nav h2 {
     height: 920px;
 }
 
+.portfolio {
+    background-color: #1f2122;
+}
 #cardRows{
     margin-bottom: 20px;
 }
@@ -169,16 +173,19 @@ nav h2 {
 .contactDiv {
     margin-top: 50px;
 }
-.contactForm {
-
-}
 
 .contactBox {
-    width: 90%;
+    width: 98%;
 }
 
-.contactLinks {
-    
+.cLabel {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.textContact {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -194,11 +201,22 @@ nav h2 {
 
 
 @media screen and (max-width: 960px) {
+
+    .landingHeads {
+        padding-top: 250px;
+    }
     .topNav {
         display: block;
         padding: 0px;
     }
 
+    .mainName {
+        font-size: 50px;
+    }
+    #mainJob {
+        font-size: 30px;
+        
+    }
     .mainAbout {
         margin: 0;
     }
