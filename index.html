@@ -272,14 +272,15 @@
             <div class="container contactDiv">
             <div class="row contactRow">
                 <div class="col-lg-6 contactForm">
-                    <form class="contactForm">
+                    <form class="contactForm" action="mailto:joshuaduncandev@gmail.com" 
+                    enctype="text/plain" method="POST">>
                         <label class="cLabel" for="nameBox">Name:</label><br>
                         <input type="text" class="contactBox" id="nameBox" placeholder="John Doe"><br>
                         <label class="cLabel" for="emailBox">Email:</label><br>
                         <input type="email" class="contactBox" id="emailBox" placeholder="name@something.com"><br>
                         <label class="cLabel" for="commentBox">Message:</label><br>
                         <textarea type="textarea" class="contactBox" id="commentBox" placeholder="Message..." rows="5"></textarea><br>
-                        <button type="submit" class="btn-white" id="submitBtn">Submit</button>
+                        <button type="submit" value="submit" class="btn-white" id="submitBtn">Submit</button>
                     </form>
                 </div>
                 <div class="col-lg-6 contactLinks">
@@ -296,6 +297,9 @@
             </div>
         </div>
     </div>
+    <footer>
+        <p>Copyright &#169; 2020 Joshua Duncan. All Right Reserved.</p>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

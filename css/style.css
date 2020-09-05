@@ -167,7 +167,7 @@ nav h2 {
 
 .contact {
     background-color:#343a40;
-    height: 920px;
+    height: 870px;
 }
 
 .contactDiv {
@@ -188,6 +188,10 @@ nav h2 {
     font-family: 'Lato', sans-serif;
 }
 
+footer {
+    text-align: center;
+    padding: 10px
+}
 
 
 @media screen and (max-width: 1195px) {
